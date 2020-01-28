@@ -6,6 +6,7 @@
 // Just uncomment the following block to see the result.
 
 
+
 // 1. Import the initial variables
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 
@@ -20,11 +21,15 @@ $family-sans-serif: "Helvetica", "Arial", sans-serif;
 // Use the new pink as the primary color
 $primary: $blue;
 $primary-invert: $blue-invert;
-
+$background-color : red ;
 // 4. Import the rest of Bulma
+$grey_bg : rgba(0, 0, 0, 0.1);
 
+.group_wrapper{
+   background-color: $grey_bg;
+   margin: 20px;
+}
 @import "../node_modules/bulma/bulma";
-
 
 /*
 TODO

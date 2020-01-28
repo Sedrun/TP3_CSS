@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.group_wrapper {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 20px; }
+
 /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
